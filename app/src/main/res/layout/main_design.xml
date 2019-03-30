@@ -11,6 +11,23 @@
         app:cardMaxElevation="8dp"
         android:paddingVertical="5dp">
 
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="180dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"
+            android:layout_marginRight="110dp"
+            android:src="@drawable/lcurl"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="180dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/rcurl"/>
+
         <TextView
             android:id="@+id/contestName"
             android:textAlignment="center"
@@ -20,6 +37,11 @@
             android:text="Contest Name will be displayed here"
             android:textAllCaps="true"
             android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/platform_logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
 
         <TextView
             android:id="@+id/endTime"

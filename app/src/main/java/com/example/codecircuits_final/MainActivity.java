@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
                                 String contestname = ongoing.getString("Name");
                                 String endtime = "The contest ends at : " + ongoing.getString("EndTime");
-                                String platform = ongoing.getString("Platform");
+                                String platform = "< " + ongoing.getString("Platform") + " />";
 
                                 mainClass.add(new MainClass(contestname, endtime, platform));
                             }
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
                                 String contestname = ongoing.getString("Name");
                                 String starttime = ongoing.getString("StartTime");
-                                String platform = ongoing.getString("Platform");
+                                String platform = "< " + ongoing.getString("Platform") + " />";
                                 String duration = ongoing.getString("Duration");
                                 String st_d = "The contest begins at " + starttime +
                                         " & Duration is : " + duration;
